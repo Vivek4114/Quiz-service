@@ -23,7 +23,7 @@ import com.nit.service.QuizService;
 
 @RestController
 @RequestMapping("/quiz")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://quiz-frontend-coral.vercel.app/")
 public class QuizController {
 
 	@Autowired
